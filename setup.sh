@@ -2,4 +2,4 @@
 ./installGenDevTools.sh
 ./installRepositories.sh
 ./installNodeJS.sh
-./installJava8
+./installJava8.sh
