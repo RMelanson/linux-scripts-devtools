@@ -1,4 +1,4 @@
 #!/bin/bash
-./generalDevTools
-./installRepositories
+./installGenDevTools.sh
+./installRepositories.sh
 ./installNodeJS.sh
