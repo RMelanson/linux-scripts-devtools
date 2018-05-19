@@ -1,6 +1,6 @@
 #! /bin/bash
 # Setup the required environment
-. .env/setEnv.sh#
+. ./env/setEnv.sh#
 ./installGenDevTools.sh
 ./installRepositories.sh
 ./installNodeJS.sh
