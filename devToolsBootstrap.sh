@@ -3,7 +3,7 @@ devToolsCurrDir=$PWD
 
 #Set Cloning Properties
 pkg=devTools
-gitRepo="linux-scripts-dev/tools.git"
+gitRepo="linux-scripts-devtools.git"
 installDir="/tmp/scripts/dev/tools"
 if [ "$1" = "ssh" ]; then
    clone="git clone git@github.com:RMelanson/"
