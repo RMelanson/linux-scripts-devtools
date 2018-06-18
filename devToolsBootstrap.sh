@@ -11,12 +11,6 @@ yum update -y
 #INSTALL GIT
 yum install git -y
 
-if [ -z "$1" ]; then
-   branch=master
-else
-  branch=$1
-fi
-
 #Set Cloning Properties
 pkg=devTools
 gitRepo="linux-scripts-devtools.git"
@@ -33,6 +27,11 @@ $clone$gitRepo $installDir
 
 # Setup $pkg
 cd $installDir
-. ./setup.sh
+
+# MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
+find . -name "*.sh" -exec chmod 700 {} \;
+
+# Setup Project
+./setup
 
 cd $devToolsCurrDir
