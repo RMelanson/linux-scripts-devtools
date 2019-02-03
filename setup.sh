@@ -1,8 +1,9 @@
 #! /bin/bash
 # Setup the required environment
 . ./env/setEnv.sh#
-./installGenDevTools.sh
-./installRepositories.sh
-./installNodeJS.sh
-./installJava8.sh
-./installMaven.sh
+./installs/installGenDevTools.sh
+./installs/installSvnRepository.sh
+./installs/installGitRepository.sh
+./installs/installNodeJS.sh
+./installs/installJava8.sh
+./installs/installMaven.sh
