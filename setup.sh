@@ -5,3 +5,4 @@
 ./installRepositories.sh
 ./installNodeJS.sh
 ./installJava8.sh
+./installMaven.sh
