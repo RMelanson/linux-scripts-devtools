@@ -11,8 +11,9 @@ yum update -y
 #INSTALL GIT
 yum install git -y
 
-#Set Cloning Properties
-pkg=devTools
+# SETUP ENVIRONMENT AND PARAMETERS
+. ./env/setEnv.sh
+
 gitRepo="linux-scripts-devtools.git"
 installDir="/tmp/scripts/dev/tools"
 if [ -f ~/.ssh/gitHub.key ]; then
