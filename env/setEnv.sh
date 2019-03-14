@@ -1,1 +1,2 @@
-# ToDo Create Environment script
+#!/bin/bash
+pkg=devtools
