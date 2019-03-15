@@ -2,6 +2,6 @@
 
 # DEV_TOOLS CONFIGURATION PARAMETERS
 
-pkg=devtools
+pkg=DEV_TOOLS
 gitRepo="linux-scripts-devtools.git"
-installDir="/tmp/scripts/dev/tools"
+installDir="/tmp/scripts/$pkg"
