@@ -1,6 +1,10 @@
 #! /bin/bash
 # Setup the required environment
-. ./env/setEnv.sh#
+. ./env/setEnv.sh
+
+# COPY RESTORE 
+cp $pkg_RESTORE.sh ..
+
 ./installs/installGenDevTools.sh
 ./installs/installSvnRepository.sh
 ./installs/installGitRepository.sh
