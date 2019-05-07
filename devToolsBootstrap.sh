@@ -1,6 +1,6 @@
 #!/bin/bash
 bootstrapDir=$PWD
-bootstrap=$webCurrDir/devToolsBootstrap.sh
+bootstrap=$bootstrapDir/devToolsBootstrap.sh
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
