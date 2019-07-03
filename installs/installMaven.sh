@@ -1,5 +1,5 @@
  mkdir $MVN_HOME
-  echo EXECUTING: wget $mvnDL
- wget $mvnDL
- yum install maven -y
- tar -xvzf apache-maven-3.6.1-bin.tar.gz 
+ echo installMaven EXECUTING: wget $mvnURL
+ wget $mvnURL
+ echo installMaven EXECUTING: tar -xvzf $mvnVersion
+ tar -xvzf $mvnVersion
