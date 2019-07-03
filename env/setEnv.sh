@@ -13,5 +13,7 @@ installDir="$parentDir/$pkg"
 
 # MAVEN INSTALATION PARMS
 MVN_HOME=/opt/mvn
-mvnURL=http://apache.mirror.iweb.ca/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+mvnMirror=http://apache.mirror.iweb.ca/maven/maven-3/3.6.1
+mvnVersion=apache-maven-3.6.1-bin.tar.gz
+mvnURL=$mvnMirror/$mvnVersion
 
