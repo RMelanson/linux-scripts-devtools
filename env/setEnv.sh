@@ -10,3 +10,4 @@ pkg=DEV_TOOLS
 scriptType="dev"
 parentDir="/tmp/scripts/$scriptType/"
 installDir="$parentDir/$pkg"
+=/opt/mvn
