@@ -20,3 +20,12 @@ mvnZippedFile=$mvnVersion-bin.tar.gz
 mvnURL=$mvnMirror/$mvnZippedFile
 M2_HOME=$MVN_HOME/$mvnVersion
 M2=$M2_HOME/bin
+
+pkgOwner=ec2-user
+
+echo Setting External Args
+echo These Arguments Overwrite Default Argument Settings
+for arg in "$@"; do
+  echo setArgs EXECUTING: export $arg
+  export $arg
+done
